@@ -1,0 +1,1234 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 3.69kB 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:26.04
+#2 ...
+
+#3 [auth] library/ubuntu:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:26.04
+#2 DONE 0.9s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [ 1/44] FROM docker.io/library/ubuntu:26.04@sha256:065aa8626841f16057b78b027b464cd59c4fac36c204c72dcbf48d66f5fa8a96
+#5 DONE 0.0s
+
+#6 [32/44] RUN chronic apt-get -qq install -y rustc scala scilab-cli sed && chronic apt-get clean
+#6 CACHED
+
+#7 [12/44] RUN chronic apt-get -qq install -y fennel fish flex fp-compiler && chronic apt-get clean
+#7 CACHED
+
+#8 [21/44] RUN chronic apt-get -qq install -y jq jsonnet kotlin ksh && chronic apt-get clean
+#8 CACHED
+
+#9 [30/44] RUN chronic apt-get -qq install -y r-base racket rakudo ratfor && chronic apt-get clean
+#9 CACHED
+
+#10 [24/44] RUN chronic apt-get -qq install -y m4 make minizinc mksh && chronic apt-get clean
+#10 CACHED
+
+#11 [14/44] RUN chronic apt-get -qq install -y gawk gcc gdb gdc && chronic apt-get clean
+#11 CACHED
+
+#12 [18/44] RUN chronic apt-get -qq install -y gpt groff groovy guile-3.0 && chronic apt-get clean
+#12 CACHED
+
+#13 [10/44] RUN chronic apt-get -qq install -y dhall dotnet-sdk-10.0 elixir elvish && chronic apt-get clean
+#13 CACHED
+
+#14 [ 3/44] RUN apt-get -qq install -y apt-utils > /dev/null
+#14 CACHED
+
+#15 [25/44] RUN chronic apt-get -qq install -y mono-devel nasm neko newlisp && chronic apt-get clean
+#15 CACHED
+
+#16 [29/44] RUN chronic apt-get -qq install -y picolisp pike8.0 polyml python3 && chronic apt-get clean
+#16 CACHED
+
+#17 [13/44] RUN chronic apt-get -qq install -y g++ gambas3-gb-pcre gambas3-scripter gap && chronic apt-get clean
+#17 CACHED
+
+#18 [28/44] RUN chronic apt-get -qq install -y pari-gp parser3-cgi perl php-cli && chronic apt-get clean
+#18 CACHED
+
+#19 [37/44] RUN chronic apt-get -qq install -y yorick zoem zsh && chronic apt-get clean
+#19 CACHED
+
+#20 [33/44] RUN chronic apt-get -qq install -y slsh spin sqlite3 squirrel3 && chronic apt-get clean
+#20 CACHED
+
+#21 [ 8/44] RUN chronic apt-get -qq install -y clisp clojure cmake coffeescript && chronic apt-get clean
+#21 CACHED
+
+#22 [ 7/44] RUN chronic apt-get -qq install -y bison bsh bwbasic chuck && chronic apt-get clean
+#22 CACHED
+
+#23 [23/44] RUN chronic apt-get -qq install -y libpolyml-dev livescript llvm lua5.3 && chronic apt-get clean
+#23 CACHED
+
+#24 [31/44] RUN chronic apt-get -qq install -y rc regina-rexx ruby ruby-mustache && chronic apt-get clean
+#24 CACHED
+
+#25 [ 2/44] RUN apt-get update && apt-get upgrade -y
+#25 CACHED
+
+#26 [19/44] RUN chronic apt-get -qq install -y gzip haxe hy icont && chronic apt-get clean
+#26 CACHED
+
+#27 [35/44] RUN chronic apt-get -qq install -y tcsh valac vim wabt && chronic apt-get clean
+#27 CACHED
+
+#28 [27/44] RUN chronic apt-get -qq install -y nqp ocaml octave openjdk-25-jdk && chronic apt-get clean
+#28 CACHED
+
+#29 [34/44] RUN chronic apt-get -qq install -y surgescript swi-prolog swiftlang tcl && chronic apt-get clean
+#29 CACHED
+
+#30 [ 5/44] RUN chronic apt-get -qq install -y afnix algol68g aspectj asymptote && chronic apt-get clean
+#30 CACHED
+
+#31 [36/44] RUN chronic apt-get -qq install -y xonsh xsltproc yabasic yash && chronic apt-get clean
+#31 CACHED
+
+#32 [17/44] RUN chronic apt-get -qq install -y gnucobol4 gnuplot gobjc golang && chronic apt-get clean
+#32 CACHED
+
+#33 [ 9/44] RUN chronic apt-get -qq install -y crystal curl dash dc && chronic apt-get clean
+#33 CACHED
+
+#34 [26/44] RUN chronic apt-get -qq install -y nickle nim node-typescript nodejs && chronic apt-get clean
+#34 CACHED
+
+#35 [16/44] RUN chronic apt-get -qq install -y ghdl ghostscript gm2 gnat && chronic apt-get clean
+#35 CACHED
+
+#36 [ 6/44] RUN chronic apt-get -qq install -y ats2-lang basex bash bc && chronic apt-get clean
+#36 CACHED
+
+#37 [20/44] RUN chronic apt-get -qq install -y iconx intercal iverilog jasmin-sable && chronic apt-get clean
+#37 CACHED
+
+#38 [11/44] RUN chronic apt-get -qq install -y emacs-nox erlang execline f2c && chronic apt-get clean
+#38 CACHED
+
+#39 [ 4/44] RUN apt-get -qq install -y moreutils
+#39 CACHED
+
+#40 [22/44] RUN chronic apt-get -qq install -y libevent-dev libfl-dev libgd-dev libpng-dev && chronic apt-get clean
+#40 CACHED
+
+#41 [15/44] RUN chronic apt-get -qq install -y genius gforth gfortran ghc && chronic apt-get clean
+#41 CACHED
+
+#42 [38/44] RUN chronic apt-get -qq install -y python3-pip golang-go cargo && chronic apt-get clean
+#42 CACHED
+
+#43 [internal] load build context
+#43 transferring context: 7.28kB 0.0s done
+#43 DONE 0.0s
+
+#44 [39/44] RUN pip install --break-system-packages --ignore-installed coconut
+#44 0.704 Collecting coconut
+#44 0.868   Downloading coconut-3.2.0-py2.py3-none-any.whl.metadata (29 kB)
+#44 1.246 Collecting setuptools>=44 (from coconut)
+#44 1.281   Downloading setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+#44 1.428 Collecting psutil>=7 (from coconut)
+#44 1.458   Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+#44 1.554 Collecting prompt_toolkit>=1 (from coconut)
+#44 1.585   Downloading prompt_toolkit-3.0.53-py3-none-any.whl.metadata (6.4 kB)
+#44 1.690 Collecting pygments>=2.19 (from coconut)
+#44 1.760   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+#44 1.811 Collecting typing_extensions>=4.15 (from coconut)
+#44 1.847   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#44 1.948 Collecting async_generator>=1.10 (from coconut)
+#44 1.983   Downloading async_generator-1.10-py3-none-any.whl.metadata (4.9 kB)
+#44 2.096 Collecting tstr>=0.4 (from coconut)
+#44 2.131   Downloading tstr-0.4.1-py3-none-any.whl.metadata (4.6 kB)
+#44 2.214 Collecting anyio>=3 (from coconut)
+#44 2.246   Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+#44 2.353 Collecting cPyparsing<2.4.7.2.5,>=2.4.7.2.4.1 (from coconut)
+#44 2.388   Downloading cpyparsing-2.4.7.2.4.3.tar.gz (1.3 MB)
+#44 2.557      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 11.1 MB/s eta 0:00:00
+#44 2.619   Installing build dependencies: started
+#44 4.765   Installing build dependencies: finished with status 'done'
+#44 4.769   Getting requirements to build wheel: started
+#44 7.932   Getting requirements to build wheel: finished with status 'done'
+#44 7.935   Preparing metadata (pyproject.toml): started
+#44 10.55   Preparing metadata (pyproject.toml): finished with status 'done'
+#44 10.62 Collecting idna>=2.8 (from anyio>=3->coconut)
+#44 10.66   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#44 10.79 Collecting wcwidth>=0.1.4 (from prompt_toolkit>=1->coconut)
+#44 10.83   Downloading wcwidth-0.9.4-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (23 kB)
+#44 10.91 Downloading coconut-3.2.0-py2.py3-none-any.whl (330 kB)
+#44 10.96 Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+#44 11.03 Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+#44 11.09 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#44 11.16 Downloading prompt_toolkit-3.0.53-py3-none-any.whl (392 kB)
+#44 11.23 Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+#44 11.30 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+#44 11.42    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 9.9 MB/s eta 0:00:00
+#44 11.42 Using cached setuptools-84.2.1-py3-none-any.whl (876 kB)
+#44 11.46 Downloading tstr-0.4.1-py3-none-any.whl (19 kB)
+#44 11.50 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#44 11.54 Downloading wcwidth-0.9.4-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (785 kB)
+#44 11.62    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 785.9/785.9 kB 10.1 MB/s eta 0:00:00
+#44 11.64 Building wheels for collected packages: cPyparsing
+#44 11.64   Building wheel for cPyparsing (pyproject.toml): started
+#44 94.13   Building wheel for cPyparsing (pyproject.toml): still running...
+#44 95.09   Building wheel for cPyparsing (pyproject.toml): finished with status 'done'
+#44 95.10   Created wheel for cPyparsing: filename=cpyparsing-2.4.7.2.4.3-cp314-cp314-linux_x86_64.whl size=5622134 sha256=23259da89ac89881ff2cdcff5396697d7df5143810bcc1e83b924953e8822fc1
+#44 95.10   Stored in directory: /root/.cache/pip/wheels/2b/0e/51/4bca95871b1b4d0c8a011afad0f4303b351855732493c506d0
+#44 95.10 Successfully built cPyparsing
+#44 95.16 Installing collected packages: cPyparsing, wcwidth, typing_extensions, tstr, setuptools, pygments, psutil, idna, async_generator, prompt_toolkit, anyio, coconut
+#44 97.04 
+#44 97.04 Successfully installed anyio-4.16.0 async_generator-1.10 cPyparsing-2.4.7.2.4.3 coconut-3.2.0 idna-3.20 prompt_toolkit-3.0.53 psutil-7.2.2 pygments-2.21.0 setuptools-84.2.1 tstr-0.4.1 typing_extensions-4.16.0 wcwidth-0.9.4
+#44 97.04 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#44 DONE 97.3s
+
+#45 [40/44] RUN GOBIN=/usr/local/bin go install github.com/d5/tengo/v2/cmd/tengo@latest && GOBIN=/usr/local/bin go install github.com/mattn/anko@latest
+#45 1.593 go: downloading github.com/d5/tengo/v2 v2.17.0
+#45 1.646 go: downloading github.com/d5/tengo v1.24.8
+#45 8.712 go: downloading github.com/mattn/anko v0.1.15
+#45 DONE 13.7s
+
+#46 [41/44] RUN cargo install --root /usr/local rhai --features bin-features --bin rhai-run && cargo install --root /usr/local koto_cli
+#46 0.325     Updating crates.io index
+#46 0.707  Downloading crates ...
+#46 1.014   Downloaded rhai v1.27.0
+#46 1.063   Installing rhai v1.27.0
+#46 1.117     Updating crates.io index
+#46 1.995      Locking 84 packages to latest compatible versions
+#46 2.005       Adding rustyline v15.0.0 (available: v19.0.0)
+#46 2.008       Adding smartstring v1.0.1 (available: v2.0.0)
+#46 2.013  Downloading crates ...
+#46 2.299   Downloaded errno v0.3.15
+#46 2.324   Downloaded home v0.5.12
+#46 2.327   Downloaded cfg_aliases v0.2.2
+#46 2.329   Downloaded utf8parse v0.2.2
+#46 2.345   Downloaded cfg-if v1.0.5
+#46 2.347   Downloaded const-random-macro v0.1.16
+#46 2.353   Downloaded fd-lock v4.0.4
+#46 2.355   Downloaded endian-type v0.1.2
+#46 2.358   Downloaded crunchy v0.2.4
+#46 2.359   Downloaded version_check v0.9.5
+#46 2.362   Downloaded castaway v0.2.4
+#46 2.366   Downloaded itoa v1.0.19
+#46 2.369   Downloaded nibble_vec v0.1.0
+#46 2.372   Downloaded const-random v0.1.18
+#46 2.378   Downloaded zmij v1.0.23
+#46 2.383   Downloaded smartstring v1.0.1
+#46 2.402   Downloaded static_assertions v1.1.0
+#46 2.403   Downloaded quote v1.0.47
+#46 2.408   Downloaded rustversion v1.0.23
+#46 2.427   Downloaded tiny-keccak v2.0.2
+#46 2.430   Downloaded getrandom v0.2.17
+#46 2.433   Downloaded autocfg v1.5.1
+#46 2.436   Downloaded once_cell v1.21.4
+#46 2.438   Downloaded arrayvec v0.7.8
+#46 2.441   Downloaded ahash v0.8.12
+#46 2.456   Downloaded bitflags v2.13.2
+#46 2.465   Downloaded serde_derive v1.0.229
+#46 2.468   Downloaded rhai_codegen v3.3.0
+#46 2.477   Downloaded unicode-ident v1.0.27
+#46 2.481   Downloaded serde_core v1.0.229
+#46 2.485   Downloaded log v0.4.35
+#46 2.488   Downloaded proc-macro2 v1.0.107
+#46 2.492   Downloaded getrandom v0.3.4
+#46 2.495   Downloaded smallvec v1.16.5
+#46 2.497   Downloaded thin-vec v0.2.21
+#46 2.499   Downloaded num-traits v0.2.19
+#46 2.505   Downloaded serde v1.0.229
+#46 2.510   Downloaded unicode-segmentation v1.13.3
+#46 2.514   Downloaded memchr v2.8.3
+#46 2.522   Downloaded compact_str v0.10.0
+#46 2.527   Downloaded rustyline v15.0.0
+#46 2.535   Downloaded serde_json v1.0.154
+#46 2.543   Downloaded rust_decimal v1.43.0
+#46 2.559   Downloaded unicode-width v0.2.3
+#46 2.566   Downloaded portable-atomic v1.15.0
+#46 2.577   Downloaded radix_trie v0.2.1
+#46 2.585   Downloaded syn v3.0.10
+#46 2.598   Downloaded syn v2.0.119
+#46 2.610   Downloaded nix v0.29.0
+#46 2.622   Downloaded zerocopy v0.8.63
+#46 2.646   Downloaded rustix v1.1.6
+#46 2.677   Downloaded libc v0.2.191
+#46 2.783   Downloaded linux-raw-sys v0.12.1
+#46 2.892    Compiling proc-macro2 v1.0.107
+#46 2.892    Compiling quote v1.0.47
+#46 2.892    Compiling unicode-ident v1.0.27
+#46 2.894    Compiling serde_core v1.0.229
+#46 2.894    Compiling autocfg v1.5.1
+#46 2.897    Compiling version_check v0.9.5
+#46 2.897    Compiling crunchy v0.2.4
+#46 2.899    Compiling libc v0.2.191
+#46 2.900    Compiling serde v1.0.229
+#46 2.903    Compiling cfg-if v1.0.5
+#46 2.905    Compiling tiny-keccak v2.0.2
+#46 2.905    Compiling rustix v1.1.6
+#46 2.905    Compiling cfg_aliases v0.2.2
+#46 2.910    Compiling portable-atomic v1.15.0
+#46 2.967    Compiling bitflags v2.13.2
+#46 2.968    Compiling nix v0.29.0
+#46 2.972    Compiling linux-raw-sys v0.12.1
+#46 3.002    Compiling zerocopy v0.8.63
+#46 3.141    Compiling zmij v1.0.23
+#46 3.255    Compiling getrandom v0.3.4
+#46 3.314    Compiling once_cell v1.21.4
+#46 3.368    Compiling ahash v0.8.12
+#46 3.485    Compiling serde_json v1.0.154
+#46 3.520    Compiling endian-type v0.1.2
+#46 3.549    Compiling rust_decimal v1.43.0
+#46 3.555    Compiling num-traits v0.2.19
+#46 3.574    Compiling smartstring v1.0.1
+#46 3.586    Compiling memchr v2.8.3
+#46 3.651    Compiling log v0.4.35
+#46 3.653    Compiling unicode-width v0.2.3
+#46 3.690    Compiling arrayvec v0.7.8
+#46 3.708    Compiling itoa v1.0.19
+#46 3.914    Compiling static_assertions v1.1.0
+#46 3.940    Compiling home v0.5.12
+#46 3.963    Compiling unicode-segmentation v1.13.3
+#46 3.993    Compiling utf8parse v0.2.2
+#46 4.027    Compiling thin-vec v0.2.21
+#46 4.621    Compiling syn v3.0.10
+#46 4.621    Compiling syn v2.0.119
+#46 5.494    Compiling getrandom v0.2.17
+#46 5.641    Compiling const-random-macro v0.1.16
+#46 5.931    Compiling const-random v0.1.18
+#46 6.783    Compiling fd-lock v4.0.4
+#46 7.440    Compiling serde_derive v1.0.229
+#46 9.794    Compiling rhai_codegen v3.3.0
+#46 11.10    Compiling smallvec v1.16.5
+#46 11.29    Compiling nibble_vec v0.1.0
+#46 11.36    Compiling radix_trie v0.2.1
+#46 11.57    Compiling rustyline v15.0.0
+#46 12.72    Compiling rhai v1.27.0
+#46 98.31     Finished `release` profile [optimized] target(s) in 1m 38s
+#46 98.33   Installing /usr/local/bin/rhai-run
+#46 98.33    Installed package `rhai v1.27.0` (executable `rhai-run`)
+#46 98.40     Updating crates.io index
+#46 99.05  Downloading crates ...
+#46 99.61   Downloaded koto_cli v0.16.1
+#46 99.64   Installing koto_cli v0.16.1
+#46 99.67     Updating crates.io index
+#46 101.5      Locking 188 packages to latest compatible versions
+#46 101.5       Adding rustyline v16.0.0 (available: v19.0.0)
+#46 101.6  Downloading crates ...
+#46 101.9   Downloaded rustc-hash v2.1.3
+#46 101.9   Downloaded approx v0.5.1
+#46 101.9   Downloaded phf_shared v0.13.1
+#46 101.9   Downloaded instant v0.1.13
+#46 101.9   Downloaded document-features v0.2.12
+#46 101.9   Downloaded dunce v1.0.5
+#46 101.9   Downloaded unsafe-libyaml v0.2.11
+#46 101.9   Downloaded by_address v1.2.1
+#46 101.9   Downloaded derive-name-macros v1.1.1
+#46 101.9   Downloaded derive-name v1.1.0
+#46 101.9   Downloaded zerofrom-derive v0.1.8
+#46 101.9   Downloaded writeable v0.6.4
+#46 101.9   Downloaded equivalent v1.0.3
+#46 101.9   Downloaded icu_locale_fallback_data v2.4.0
+#46 101.9   Downloaded scopeguard v1.2.0
+#46 101.9   Downloaded potential_utf v0.1.6
+#46 101.9   Downloaded yoke-derive v0.8.4
+#46 101.9   Downloaded zerofrom v0.1.8
+#46 101.9   Downloaded mimalloc v0.1.52
+#46 101.9   Downloaded palette_math v0.7.7
+#46 101.9   Downloaded pico-args v0.5.0
+#46 102.0   Downloaded lazy_static v1.5.1
+#46 102.0   Downloaded rustc_version v0.4.1
+#46 102.0   Downloaded saturating_cast v0.1.0
+#46 102.0   Downloaded serde_spanned v0.6.9
+#46 102.0   Downloaded stable_deref_trait v1.2.1
+#46 102.0   Downloaded yoke v0.8.4
+#46 102.0   Downloaded siphasher v1.0.4
+#46 102.0   Downloaded toml_datetime v0.6.11
+#46 102.0   Downloaded toml_write v0.1.2
+#46 102.0   Downloaded zerovec-derive v0.11.7
+#46 102.0   Downloaded utf_types v1.0.0
+#46 102.0   Downloaded find-msvc-tools v0.1.15
+#46 102.0   Downloaded zerotrie v0.2.5
+#46 102.0   Downloaded zerovec v0.11.9
+#46 102.0   Downloaded utf8_iter v1.1.0
+#46 102.0   Downloaded koto v0.16.1
+#46 102.0   Downloaded rand_core v0.9.5
+#46 102.0   Downloaded thiserror v2.0.21
+#46 102.0   Downloaded unicode-xid v0.2.6
+#46 102.0   Downloaded unicase v2.10.0
+#46 102.0   Downloaded iana-time-zone v0.1.65
+#46 102.0   Downloaded tinystr v0.8.5
+#46 102.0   Downloaded circular-buffer v1.2.1
+#46 102.0   Downloaded smawk v0.3.3
+#46 102.0   Downloaded thiserror-impl v2.0.21
+#46 102.0   Downloaded toml v0.8.23
+#46 102.0   Downloaded ppv-lite86 v0.2.21
+#46 102.0   Downloaded litrs v1.0.1
+#46 102.0   Downloaded tempfile v3.27.0
+#46 102.0   Downloaded winnow v0.7.15
+#46 102.0   Downloaded icu_provider v2.4.0
+#46 102.0   Downloaded koto_bytecode v0.16.1
+#46 102.0   Downloaded parking_lot v0.12.5
+#46 102.0   Downloaded serde_yaml_ng v0.10.0
+#46 102.0   Downloaded ryu v1.0.23
+#46 102.0   Downloaded anyhow v1.0.104
+#46 102.1   Downloaded icu_locale_core v2.4.0
+#46 102.1   Downloaded textwrap v0.16.4
+#46 102.1   Downloaded toml_edit v0.22.27
+#46 102.1   Downloaded derive_more v2.1.1
+#46 102.1   Downloaded getrandom v0.4.3
+#46 102.1   Downloaded derive_more-impl v2.1.1
+#46 102.1   Downloaded indexmap v2.14.2
+#46 102.1   Downloaded rand v0.9.5
+#46 102.1   Downloaded synstructure v0.14.0
+#46 102.1   Downloaded semver v1.0.28
+#46 102.1   Downloaded icu_collections v2.4.0
+#46 102.1   Downloaded litemap v0.8.3
+#46 102.1   Downloaded rustyline v16.0.0
+#46 102.1   Downloaded crossterm v0.29.0
+#46 102.1   Downloaded parking_lot_core v0.9.12
+#46 102.1   Downloaded shlex v2.0.1
+#46 102.1   Downloaded cc v1.11.2
+#46 102.1   Downloaded hashbrown v0.17.1
+#46 102.1   Downloaded regex v1.13.1
+#46 102.1   Downloaded rand_xoshiro v0.7.0
+#46 102.1   Downloaded rand_chacha v0.9.0
+#46 102.2   Downloaded phf v0.13.1
+#46 102.2   Downloaded paste v1.0.15
+#46 102.2   Downloaded palette_derive v0.7.7
+#46 102.2   Downloaded pulldown-cmark v0.13.6
+#46 102.2   Downloaded aho-corasick v1.1.5
+#46 102.2   Downloaded lock_api v0.4.14
+#46 102.2   Downloaded icu_locale_fallback v2.4.0
+#46 102.2   Downloaded foldhash v0.2.0
+#46 102.2   Downloaded fastrand v2.5.0
+#46 102.2   Downloaded displaydoc v0.2.7
+#46 102.2   Downloaded chrono v0.4.45
+#46 102.2   Downloaded palette v0.7.7
+#46 102.2   Downloaded nix v0.30.1
+#46 102.3   Downloaded regex-syntax v0.8.11
+#46 102.3   Downloaded libmimalloc-sys v0.1.49
+#46 102.3   Downloaded regex-automata v0.4.18
+#46 102.3   Downloaded glam v0.30.10
+#46 102.5   Downloaded icu_segmenter_data v2.4.0
+#46 102.6   Downloaded icu_segmenter v2.4.0
+#46 102.7   Downloaded koto_yaml v0.16.1
+#46 102.7   Downloaded koto_serde v0.16.1
+#46 102.7   Downloaded koto_regex v0.16.1
+#46 102.7   Downloaded koto_json v0.16.1
+#46 102.7   Downloaded koto_format v0.16.1
+#46 102.7   Downloaded koto_derive v0.16.1
+#46 102.7   Downloaded koto_runtime v0.16.1
+#46 102.7   Downloaded koto_color v0.16.1
+#46 102.7   Downloaded koto_toml v0.16.1
+#46 102.7   Downloaded koto_tempfile v0.16.1
+#46 102.7   Downloaded koto_random v0.16.1
+#46 102.7   Downloaded koto_parser v0.16.1
+#46 102.7   Downloaded koto_memory v0.16.1
+#46 102.7   Downloaded koto_lexer v0.16.1
+#46 102.7   Downloaded koto_geometry v0.16.1
+#46 102.7    Compiling proc-macro2 v1.0.107
+#46 102.7    Compiling quote v1.0.47
+#46 102.7    Compiling unicode-ident v1.0.27
+#46 102.7    Compiling cfg-if v1.0.5
+#46 102.7    Compiling smallvec v1.16.5
+#46 102.7    Compiling autocfg v1.5.1
+#46 102.7    Compiling unicode-width v0.2.3
+#46 102.7    Compiling hashbrown v0.17.1
+#46 102.7    Compiling unicode-segmentation v1.13.3
+#46 102.7    Compiling thiserror v2.0.21
+#46 102.7    Compiling equivalent v1.0.3
+#46 102.7    Compiling unicode-xid v0.2.6
+#46 102.8    Compiling serde_core v1.0.229
+#46 102.8    Compiling libc v0.2.191
+#46 102.8    Compiling koto_memory v0.16.1
+#46 102.8    Compiling serde v1.0.229
+#46 102.8    Compiling paste v1.0.15
+#46 102.8    Compiling dunce v1.0.5
+#46 102.8    Compiling circular-buffer v1.2.1
+#46 102.9    Compiling rustc-hash v2.1.3
+#46 102.9    Compiling iana-time-zone v0.1.65
+#46 103.0    Compiling instant v0.1.13
+#46 103.0    Compiling stable_deref_trait v1.2.1
+#46 103.1    Compiling saturating_cast v0.1.0
+#46 103.1    Compiling bitflags v2.13.2
+#46 103.1    Compiling memchr v2.8.3
+#46 103.1    Compiling writeable v0.6.4
+#46 103.2    Compiling rustix v1.1.6
+#46 103.2    Compiling linux-raw-sys v0.12.1
+#46 103.2    Compiling getrandom v0.3.4
+#46 103.3    Compiling find-msvc-tools v0.1.15
+#46 103.4    Compiling shlex v2.0.1
+#46 103.4    Compiling num-traits v0.2.19
+#46 103.6    Compiling koto_lexer v0.16.1
+#46 103.7    Compiling litemap v0.8.3
+#46 103.7    Compiling icu_locale_fallback_data v2.4.0
+#46 103.8    Compiling cc v1.11.2
+#46 103.8    Compiling utf_types v1.0.0
+#46 103.9    Compiling getrandom v0.4.3
+#46 104.0    Compiling cfg_aliases v0.2.2
+#46 104.0    Compiling icu_segmenter_data v2.4.0
+#46 104.0    Compiling zmij v1.0.23
+#46 104.2    Compiling siphasher v1.0.4
+#46 104.2    Compiling parking_lot_core v0.9.12
+#46 104.2    Compiling itoa v1.0.19
+#46 104.3    Compiling aho-corasick v1.1.5
+#46 104.3    Compiling indexmap v2.14.2
+#46 104.4    Compiling utf8_iter v1.1.0
+#46 104.4    Compiling nix v0.30.1
+#46 104.5    Compiling syn v3.0.10
+#46 104.5    Compiling syn v2.0.119
+#46 104.6    Compiling phf_shared v0.13.1
+#46 104.6    Compiling by_address v1.2.1
+#46 104.6    Compiling toml_write v0.1.2
+#46 104.7    Compiling scopeguard v1.2.0
+#46 104.7    Compiling serde_json v1.0.154
+#46 104.8    Compiling regex-syntax v0.8.11
+#46 105.0    Compiling winnow v0.7.15
+#46 105.1    Compiling lock_api v0.4.14
+#46 105.3    Compiling phf v0.13.1
+#46 105.4    Compiling unsafe-libyaml v0.2.11
+#46 105.5    Compiling chrono v0.4.45
+#46 105.6    Compiling approx v0.5.1
+#46 105.8    Compiling once_cell v1.21.4
+#46 105.9    Compiling palette_math v0.7.7
+#46 106.0    Compiling ryu v1.0.23
+#46 106.1    Compiling pulldown-cmark v0.13.6
+#46 106.2    Compiling fastrand v2.5.0
+#46 106.2    Compiling litrs v1.0.1
+#46 106.3    Compiling anyhow v1.0.104
+#46 106.5    Compiling foldhash v0.2.0
+#46 106.5    Compiling log v0.4.35
+#46 106.6    Compiling glam v0.30.10
+#46 106.7    Compiling utf8parse v0.2.2
+#46 106.8    Compiling unicase v2.10.0
+#46 106.8    Compiling smawk v0.3.3
+#46 106.9    Compiling lazy_static v1.5.1
+#46 107.0    Compiling pico-args v0.5.0
+#46 107.1    Compiling document-features v0.2.12
+#46 107.8    Compiling libmimalloc-sys v0.1.49
+#46 107.8    Compiling rand_core v0.9.5
+#46 108.2    Compiling parking_lot v0.12.5
+#46 108.3    Compiling rand v0.9.5
+#46 108.3    Compiling rand_xoshiro v0.7.0
+#46 109.6    Compiling synstructure v0.14.0
+#46 109.6    Compiling regex-automata v0.4.18
+#46 110.1    Compiling tempfile v3.27.0
+#46 110.5    Compiling fd-lock v4.0.4
+#46 110.5    Compiling crossterm v0.29.0
+#46 110.7    Compiling home v0.5.12
+#46 111.5    Compiling thiserror-impl v2.0.21
+#46 112.2    Compiling zerofrom-derive v0.1.8
+#46 112.5    Compiling serde_derive v1.0.229
+#46 112.6    Compiling yoke-derive v0.8.4
+#46 112.6    Compiling zerovec-derive v0.11.7
+#46 113.5    Compiling displaydoc v0.2.7
+#46 113.8    Compiling zerofrom v0.1.8
+#46 114.0    Compiling rustyline v16.0.0
+#46 114.3    Compiling yoke v0.8.4
+#46 115.0    Compiling zerotrie v0.2.5
+#46 115.1    Compiling zerovec v0.11.9
+#46 115.1    Compiling mimalloc v0.1.52
+#46 115.5    Compiling derive-name-macros v1.1.1
+#46 115.9    Compiling koto_derive v0.16.1
+#46 115.9    Compiling derive_more-impl v2.1.1
+#46 115.9    Compiling palette_derive v0.7.7
+#46 116.2    Compiling derive-name v1.1.0
+#46 116.2    Compiling regex v1.13.1
+#46 116.3    Compiling koto_parser v0.16.1
+#46 117.9    Compiling koto_bytecode v0.16.1
+#46 117.9    Compiling tinystr v0.8.5
+#46 117.9    Compiling potential_utf v0.1.6
+#46 118.1    Compiling derive_more v2.1.1
+#46 118.2    Compiling icu_collections v2.4.0
+#46 118.2    Compiling palette v0.7.7
+#46 118.2    Compiling icu_locale_core v2.4.0
+#46 120.4    Compiling koto_runtime v0.16.1
+#46 120.8    Compiling toml_datetime v0.6.11
+#46 121.1    Compiling icu_provider v2.4.0
+#46 121.4    Compiling serde_spanned v0.6.9
+#46 121.5    Compiling serde_yaml_ng v0.10.0
+#46 121.5    Compiling koto_format v0.16.1
+#46 121.5    Compiling toml_edit v0.22.27
+#46 122.0    Compiling icu_locale_fallback v2.4.0
+#46 122.5    Compiling icu_segmenter v2.4.0
+#46 123.9    Compiling textwrap v0.16.4
+#46 126.0    Compiling toml v0.8.23
+#46 126.6    Compiling koto_serde v0.16.1
+#46 126.6    Compiling koto_regex v0.16.1
+#46 126.6    Compiling koto_geometry v0.16.1
+#46 126.6    Compiling koto_random v0.16.1
+#46 126.6    Compiling koto_tempfile v0.16.1
+#46 127.6    Compiling koto_yaml v0.16.1
+#46 127.7    Compiling koto_json v0.16.1
+#46 128.3    Compiling koto v0.16.1
+#46 128.6    Compiling koto_toml v0.16.1
+#46 133.0    Compiling koto_color v0.16.1
+#46 134.9    Compiling koto_cli v0.16.1
+#46 137.2     Finished `release` profile [optimized] target(s) in 38.81s
+#46 137.2   Installing /usr/local/bin/koto
+#46 137.2    Installed package `koto_cli v0.16.1` (executable `koto`)
+#46 DONE 137.3s
+
+#47 [42/44] ADD . /usr/local/share/quine-relay
+#47 DONE 0.0s
+
+#48 [43/44] WORKDIR /usr/local/share/quine-relay
+#48 DONE 0.0s
+
+#49 [44/44] RUN make -C vendor
+#49 0.373 make: Entering directory '/usr/local/share/quine-relay/vendor'
+#49 0.373 unzip -q lci-0.10.5.zip
+#49 0.455 (cd lci-0.10.5 && cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_INSTALL_PREFIX=/usr/local/share/quine-relay/vendor/local . && make && make install)
+#49 0.502 CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+#49 0.502   Compatibility with CMake < 3.10 will be removed from a future version of
+#49 0.502   CMake.
+#49 0.502 
+#49 0.502   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+#49 0.502   to tell CMake that the project requires at least <min> but has been updated
+#49 0.502   to work with policies introduced by <max> or earlier.
+#49 0.502 
+#49 0.502 
+#49 0.561 -- The C compiler identification is GNU 15.2.0
+#49 0.622 -- The CXX compiler identification is GNU 15.2.0
+#49 0.636 -- Detecting C compiler ABI info
+#49 0.702 -- Detecting C compiler ABI info - done
+#49 0.715 -- Check for working C compiler: /usr/bin/cc - skipped
+#49 0.716 -- Detecting C compile features
+#49 0.717 -- Detecting C compile features - done
+#49 0.731 -- Detecting CXX compiler ABI info
+#49 0.798 -- Detecting CXX compiler ABI info - done
+#49 0.811 -- Check for working CXX compiler: /usr/bin/c++ - skipped
+#49 0.812 -- Detecting CXX compile features
+#49 0.813 -- Detecting CXX compile features - done
+#49 0.996 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+#49 0.996 CMake Warning at CMakeLists.txt:59 (message):
+#49 0.996   Couldn't find doxygen.  You won't be able to generate documentation now
+#49 0.996 
+#49 0.996 
+#49 1.030 -- Configuring done (0.5s)
+#49 1.242 -- Generating done (0.2s)
+#49 1.242 -- Build files have been written to: /usr/local/share/quine-relay/vendor/lci-0.10.5
+#49 1.263 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/lci-0.10.5'
+#49 1.300 [ 12%] Building C object CMakeFiles/lci.dir/interpreter.c.o
+#49 1.432 [ 25%] Building C object CMakeFiles/lci.dir/lexer.c.o
+#49 1.469 [ 37%] Building C object CMakeFiles/lci.dir/main.c.o
+#49 1.508 [ 50%] Building C object CMakeFiles/lci.dir/parser.c.o
+#49 1.624 [ 62%] Building C object CMakeFiles/lci.dir/tokenizer.c.o
+#49 1.661 [ 75%] Building C object CMakeFiles/lci.dir/unicode.c.o
+#49 1.796 [ 87%] Building C object CMakeFiles/lci.dir/error.c.o
+#49 1.820 [100%] Linking C executable lci
+#49 1.864 [100%] Built target lci
+#49 1.872 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/lci-0.10.5'
+#49 1.873 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/lci-0.10.5'
+#49 1.916 [100%] Built target lci
+#49 1.938 Install the project...
+#49 1.944 -- Install configuration: ""
+#49 1.945 -- Installing: /usr/local/share/quine-relay/vendor/local/bin/lci
+#49 1.971 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/lci-0.10.5'
+#49 1.971 tar xzf npiet-1.3e.tar.gz
+#49 1.978 (cd npiet-1.3e && ./configure CC="gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion" --prefix=/usr/local/share/quine-relay/vendor/local && make && make install)
+#49 2.111 checking for gcc... gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion
+#49 2.131 checking whether the C compiler works... yes
+#49 2.158 checking for C compiler default output file name... a.out
+#49 2.159 checking for suffix of executables... 
+#49 2.187 checking whether we are cross compiling... no
+#49 2.216 checking for suffix of object files... o
+#49 2.233 checking whether we are using the GNU C compiler... yes
+#49 2.249 checking whether gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion accepts -g... yes
+#49 2.264 checking for gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion option to accept ISO C89... none needed
+#49 2.291 checking for a BSD-compatible install... /usr/bin/install -c
+#49 2.328 checking how to run the C preprocessor... gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion -E
+#49 2.371 checking for grep that handles long lines and -e... /usr/bin/grep
+#49 2.373 checking for egrep... /usr/bin/grep -E
+#49 2.374 checking for ANSI C header files... yes
+#49 2.455 checking for sys/types.h... yes
+#49 2.478 checking for sys/stat.h... yes
+#49 2.502 checking for stdlib.h... yes
+#49 2.526 checking for string.h... yes
+#49 2.550 checking for memory.h... yes
+#49 2.575 checking for strings.h... yes
+#49 2.600 checking for inttypes.h... yes
+#49 2.626 checking for stdint.h... yes
+#49 2.650 checking for unistd.h... yes
+#49 2.677 checking gd.h usability... yes
+#49 2.701 checking gd.h presence... yes
+#49 2.713 checking for gd.h... yes
+#49 2.720 checking png.h usability... yes
+#49 2.747 checking png.h presence... yes
+#49 2.762 checking for png.h... yes
+#49 2.770 checking gif_lib.h usability... no
+#49 2.795 checking gif_lib.h presence... no
+#49 2.808 checking for gif_lib.h... no
+#49 2.809 checking for main in -lgd... yes
+#49 2.838 checking for main in -lpng... yes
+#49 2.867 checking for main in -lgif... no
+#49 2.894 checking for main in -lz... yes
+#49 2.923 checking for main in -lm... yes
+#49 2.969 configure: creating ./config.status
+#49 3.071 config.status: creating Makefile
+#49 3.082 config.status: creating config.h
+#49 3.107 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/npiet-1.3e'
+#49 3.107 gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion -g -O2    -Wall -DHAVE_CONFIG_H   -c npiet.c
+#49 3.782 gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion -g  -o npiet npiet.o -lgd -lpng -lz -lm 
+#49 3.827 gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion -g -O2    -Wall -DHAVE_CONFIG_H   -c npiet-foogol.c
+#49 3.850 npiet-foogol.c: In function 'yyparse':
+#49 3.851 npiet-foogol.c:3588:18: warning: passing argument 1 of 'yyerror' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+#49 3.851  3588 |         yyerror (yymsgp);
+#49 3.851       |                  ^~~~~~
+#49 3.851 npiet-foogol.y:190:21: note: expected 'char *' but argument is of type 'const char *'
+#49 3.851   190 | void yyerror (char *s);
+#49 3.851       |               ~~~~~~^
+#49 4.448 gcc -std=c99 -Wno-implicit-function-declaration -Wno-int-conversion -g  -o npiet-foogol npiet-foogol.o -lgd -lpng -lz -lm 
+#49 4.492 groff -man -T html npiet.1 > npiet.1.html
+#49 4.536 groff -man -T html npietedit.1 > npietedit.1.html
+#49 4.571 groff -man -T html npiet-foogol.1 > npiet-foogol.1.html
+#49 4.607 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/npiet-1.3e'
+#49 4.608 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/npiet-1.3e'
+#49 4.608 mkdir -p /usr/local/share/quine-relay/vendor/local/bin
+#49 4.611 /usr/bin/install -c npiet /usr/local/share/quine-relay/vendor/local/bin
+#49 4.613 /usr/bin/install -c npietedit /usr/local/share/quine-relay/vendor/local/bin
+#49 4.616 /usr/bin/install -c npiet-foogol /usr/local/share/quine-relay/vendor/local/bin
+#49 4.618 mkdir -p /usr/local/share/quine-relay/vendor/local/man/man1
+#49 4.620 /usr/bin/install -c -m 644 npiet.1  /usr/local/share/quine-relay/vendor/local/man/man1
+#49 4.623 /usr/bin/install -c -m 644 npietedit.1 /usr/local/share/quine-relay/vendor/local/man/man1
+#49 4.625 /usr/bin/install -c -m 644 npiet-foogol.1 /usr/local/share/quine-relay/vendor/local/man/man1
+#49 4.627 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/npiet-1.3e'
+#49 4.627 tar xjf cfunge-0.9.0.tar.bz2
+#49 4.658 sed -i 's/"\(CFUNGE_CHECK[A-Z]*_${_name}\)"/\1/g' cfunge-0.9.0/cmake/modules/CfungeRequireInclude.cmake cfunge-0.9.0/cmake/modules/CfungeRequireMultipleIncludes.cmake
+#49 4.659 (cd cfunge-0.9.0 && cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_INSTALL_PREFIX=/usr/local/share/quine-relay/vendor/local . && make && make install)
+#49 4.669 CMake Warning (dev) at CMakeLists.txt:19 (project):
+#49 4.669   cmake_minimum_required() should be called prior to this top-level project()
+#49 4.669   call.  Please see the cmake-commands(7) manual for usage documentation of
+#49 4.669   both commands.
+#49 4.669 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 4.669 
+#49 4.706 -- The C compiler identification is GNU 15.2.0
+#49 4.714 -- Detecting C compiler ABI info
+#49 4.773 -- Detecting C compiler ABI info - done
+#49 4.787 -- Check for working C compiler: /usr/bin/cc - skipped
+#49 4.787 -- Detecting C compile features
+#49 4.788 -- Detecting C compile features - done
+#49 4.794 CMake Deprecation Warning at CMakeLists.txt:21 (cmake_minimum_required):
+#49 4.794   Compatibility with CMake < 3.10 will be removed from a future version of
+#49 4.794   CMake.
+#49 4.794 
+#49 4.794   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+#49 4.794   to tell CMake that the project requires at least <min> but has been updated
+#49 4.794   to work with policies introduced by <max> or earlier.
+#49 4.794 
+#49 4.794 
+#49 4.798 -- Found PkgConfig: /usr/bin/pkg-config (found version "2.5.1")
+#49 4.804 -- Performing Test CFUNGE_CHECKFLAG_std_c99
+#49 4.862 -- Performing Test CFUNGE_CHECKFLAG_std_c99 - Success
+#49 4.863 -- Looking for stddef.h
+#49 4.920 -- Looking for stddef.h - found
+#49 4.920 -- Looking for stdbool.h
+#49 4.977 -- Looking for stdbool.h - found
+#49 4.978 -- Looking for stdint.h
+#49 5.039 -- Looking for stdint.h - found
+#49 5.039 -- Looking for limits.h
+#49 5.097 -- Looking for limits.h - found
+#49 5.097 -- Looking for inttypes.h
+#49 5.157 -- Looking for inttypes.h - found
+#49 5.157 -- Looking for arpa/inet.h
+#49 5.219 -- Looking for arpa/inet.h - found
+#49 5.219 -- Looking for unistd.h
+#49 5.279 -- Looking for unistd.h - found
+#49 5.279 -- Looking for fcntl.h
+#49 5.347 -- Looking for fcntl.h - found
+#49 5.347 -- Looking for sys/types.h
+#49 5.407 -- Looking for sys/types.h - found
+#49 5.407 -- Looking for sys/socket.h
+#49 5.468 -- Looking for sys/socket.h - found
+#49 5.468 -- Looking for netinet/in.h
+#49 5.531 -- Looking for netinet/in.h - found
+#49 5.531 -- Looking for include files sys/types.h, netinet/tcp.h
+#49 5.594 -- Looking for include files sys/types.h, netinet/tcp.h - found
+#49 5.594 -- Looking for netdb.h
+#49 5.655 -- Looking for netdb.h - found
+#49 5.655 -- Looking for regex.h
+#49 5.716 -- Looking for regex.h - found
+#49 5.716 -- Looking for sys/mman.h
+#49 5.776 -- Looking for sys/mman.h - found
+#49 5.776 -- Looking for dup2
+#49 5.836 -- Looking for dup2 - found
+#49 5.836 -- Looking for fcntl
+#49 5.894 -- Looking for fcntl - found
+#49 5.894 -- Looking for fork
+#49 5.951 -- Looking for fork - found
+#49 5.951 -- Looking for gettimeofday
+#49 6.013 -- Looking for gettimeofday - found
+#49 6.013 -- Looking for mkdir
+#49 6.072 -- Looking for mkdir - found
+#49 6.072 -- Looking for regcomp
+#49 6.130 -- Looking for regcomp - found
+#49 6.130 -- Looking for rmdir
+#49 6.188 -- Looking for rmdir - found
+#49 6.188 -- Looking for getaddrinfo
+#49 6.246 -- Looking for getaddrinfo - found
+#49 6.246 -- Looking for freeaddrinfo
+#49 6.306 -- Looking for freeaddrinfo - found
+#49 6.306 -- Looking for poll
+#49 6.365 -- Looking for poll - found
+#49 6.365 -- Looking for socket
+#49 6.424 -- Looking for socket - found
+#49 6.424 -- Looking for mmap
+#49 6.481 -- Looking for mmap - found
+#49 6.481 -- Looking for munmap
+#49 6.539 -- Looking for munmap - found
+#49 6.539 -- Looking for strdup
+#49 6.596 -- Looking for strdup - found
+#49 6.596 -- Looking for random
+#49 6.655 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 6.655   Cannot set "CFUNGE_HAVE_random": current scope has no parent.
+#49 6.655 Call Stack (most recent call first):
+#49 6.655   CMakeLists.txt:248 (CFUNGE_CHECK_FUNCTION)
+#49 6.655 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 6.655 
+#49 6.655 -- Looking for random - found
+#49 6.655 -- Looking for srandom
+#49 6.713 -- Looking for srandom - found
+#49 6.713 -- Looking for acosl
+#49 6.713 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 6.713   Cannot set "CFUNGE_HAVE_srandom": current scope has no parent.
+#49 6.713 Call Stack (most recent call first):
+#49 6.713   CMakeLists.txt:249 (CFUNGE_CHECK_FUNCTION)
+#49 6.713 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 6.713 
+#49 6.776 -- Looking for acosl - found
+#49 6.776 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 6.776   Cannot set "CFUNGE_HAVE_acosl": current scope has no parent.
+#49 6.776 Call Stack (most recent call first):
+#49 6.776   CMakeLists.txt:255 (CFUNGE_CHECK_FUNCTION)
+#49 6.776 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 6.776 
+#49 6.776 -- Looking for asinl
+#49 6.840 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 6.840   Cannot set "CFUNGE_HAVE_asinl": current scope has no parent.
+#49 6.840 Call Stack (most recent call first):
+#49 6.840   CMakeLists.txt:256 (CFUNGE_CHECK_FUNCTION)
+#49 6.840 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 6.840 
+#49 6.840 -- Looking for asinl - found
+#49 6.840 -- Looking for atanl
+#49 6.903 -- Looking for atanl - found
+#49 6.903 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 6.903   Cannot set "CFUNGE_HAVE_atanl": current scope has no parent.
+#49 6.903 Call Stack (most recent call first):
+#49 6.903   CMakeLists.txt:257 (CFUNGE_CHECK_FUNCTION)
+#49 6.903 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 6.903 
+#49 6.903 -- Looking for cosl
+#49 6.966 -- Looking for cosl - found
+#49 6.966 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 6.966   Cannot set "CFUNGE_HAVE_cosl": current scope has no parent.
+#49 6.966 Call Stack (most recent call first):
+#49 6.966   CMakeLists.txt:258 (CFUNGE_CHECK_FUNCTION)
+#49 6.966 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 6.966 
+#49 6.966 -- Looking for floorl
+#49 7.030 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 7.030   Cannot set "CFUNGE_HAVE_floorl": current scope has no parent.
+#49 7.030 Call Stack (most recent call first):
+#49 7.030   CMakeLists.txt:259 (CFUNGE_CHECK_FUNCTION)
+#49 7.030 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 7.030 
+#49 7.030 -- Looking for floorl - found
+#49 7.030 -- Looking for powl
+#49 7.093 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 7.093   Cannot set "CFUNGE_HAVE_powl": current scope has no parent.
+#49 7.093 Call Stack (most recent call first):
+#49 7.093   CMakeLists.txt:260 (CFUNGE_CHECK_FUNCTION)
+#49 7.093 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 7.093 
+#49 7.093 -- Looking for powl - found
+#49 7.093 -- Looking for roundl
+#49 7.156 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 7.156   Cannot set "CFUNGE_HAVE_roundl": current scope has no parent.
+#49 7.156 Call Stack (most recent call first):
+#49 7.156   CMakeLists.txt:261 (CFUNGE_CHECK_FUNCTION)
+#49 7.156 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 7.156 
+#49 7.156 -- Looking for roundl - found
+#49 7.156 -- Looking for sinl
+#49 7.219 -- Looking for sinl - found
+#49 7.219 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 7.219   Cannot set "CFUNGE_HAVE_sinl": current scope has no parent.
+#49 7.219 Call Stack (most recent call first):
+#49 7.219   CMakeLists.txt:262 (CFUNGE_CHECK_FUNCTION)
+#49 7.219 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 7.219 
+#49 7.219 -- Looking for sqrtl
+#49 7.286 -- Looking for sqrtl - found
+#49 7.287 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 7.287   Cannot set "CFUNGE_HAVE_sqrtl": current scope has no parent.
+#49 7.287 Call Stack (most recent call first):
+#49 7.287   CMakeLists.txt:263 (CFUNGE_CHECK_FUNCTION)
+#49 7.287 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 7.287 
+#49 7.287 -- Looking for tanl
+#49 7.350 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 7.350   Cannot set "CFUNGE_HAVE_tanl": current scope has no parent.
+#49 7.350 Call Stack (most recent call first):
+#49 7.350   CMakeLists.txt:264 (CFUNGE_CHECK_FUNCTION)
+#49 7.350 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 7.350 
+#49 7.350 -- Looking for tanl - found
+#49 7.351 -- Performing Test CFUNGE_CHECKFLAG_Wall
+#49 7.413 -- Performing Test CFUNGE_CHECKFLAG_Wall - Success
+#49 7.414 -- Performing Test CFUNGE_CHECKFLAG_Wextra
+#49 7.474 -- Performing Test CFUNGE_CHECKFLAG_Wextra - Success
+#49 7.475 -- Performing Test CFUNGE_CHECKFLAG_pedantic
+#49 7.536 -- Performing Test CFUNGE_CHECKFLAG_pedantic - Success
+#49 7.536 -- Performing Test CFUNGE_CHECKFLAG_Wwrite-strings
+#49 7.598 -- Performing Test CFUNGE_CHECKFLAG_Wwrite-strings - Success
+#49 7.599 -- Performing Test CFUNGE_CHECKFLAG_Wcast-align
+#49 7.657 -- Performing Test CFUNGE_CHECKFLAG_Wcast-align - Success
+#49 7.658 -- Performing Test CFUNGE_CHECKFLAG_Wcast-qual
+#49 7.720 -- Performing Test CFUNGE_CHECKFLAG_Wcast-qual - Success
+#49 7.720 -- Performing Test CFUNGE_CHECKFLAG_Wbad-function-cast
+#49 7.780 -- Performing Test CFUNGE_CHECKFLAG_Wbad-function-cast - Success
+#49 7.780 -- Performing Test CFUNGE_CHECKFLAG_Wstrict-prototypes
+#49 7.844 -- Performing Test CFUNGE_CHECKFLAG_Wstrict-prototypes - Success
+#49 7.845 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-prototypes
+#49 7.905 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-prototypes - Success
+#49 7.905 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-declarations
+#49 7.965 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-declarations - Success
+#49 7.966 -- Performing Test CFUNGE_CHECKFLAG_Wold-style-definition
+#49 8.026 -- Performing Test CFUNGE_CHECKFLAG_Wold-style-definition - Success
+#49 8.027 -- Performing Test CFUNGE_CHECKFLAG_Wredundant-decls
+#49 8.090 -- Performing Test CFUNGE_CHECKFLAG_Wredundant-decls - Success
+#49 8.091 -- Performing Test CFUNGE_CHECKFLAG_Wnested-externs
+#49 8.152 -- Performing Test CFUNGE_CHECKFLAG_Wnested-externs - Success
+#49 8.152 -- Performing Test CFUNGE_CHECKFLAG_Wdeclaration-after-statement
+#49 8.212 -- Performing Test CFUNGE_CHECKFLAG_Wdeclaration-after-statement - Success
+#49 8.213 -- Performing Test CFUNGE_CHECKFLAG_Wshadow
+#49 8.273 -- Performing Test CFUNGE_CHECKFLAG_Wshadow - Success
+#49 8.274 -- Performing Test CFUNGE_CHECKFLAG_Wundef
+#49 8.336 -- Performing Test CFUNGE_CHECKFLAG_Wundef - Success
+#49 8.337 -- Performing Test CFUNGE_CHECKFLAG_Wpacked
+#49 8.396 -- Performing Test CFUNGE_CHECKFLAG_Wpacked - Success
+#49 8.397 -- Performing Test CFUNGE_CHECKFLAG_Wfloat-equal
+#49 8.457 -- Performing Test CFUNGE_CHECKFLAG_Wfloat-equal - Success
+#49 8.458 -- Performing Test CFUNGE_CHECKFLAG_Wstrict-aliasing_2
+#49 8.519 -- Performing Test CFUNGE_CHECKFLAG_Wstrict-aliasing_2 - Success
+#49 8.520 -- Performing Test CFUNGE_CHECKFLAG_Wformat_2
+#49 8.579 -- Performing Test CFUNGE_CHECKFLAG_Wformat_2 - Success
+#49 8.580 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-noreturn
+#49 8.641 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-noreturn - Success
+#49 8.641 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-format-attribute
+#49 8.700 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-format-attribute - Success
+#49 8.701 -- Performing Test CFUNGE_CHECKFLAG_Winit-self
+#49 8.761 -- Performing Test CFUNGE_CHECKFLAG_Winit-self - Success
+#49 8.762 -- Performing Test CFUNGE_CHECKFLAG_Wunsafe-loop-optimizations
+#49 8.823 -- Performing Test CFUNGE_CHECKFLAG_Wunsafe-loop-optimizations - Success
+#49 8.824 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-include-dirs
+#49 8.884 -- Performing Test CFUNGE_CHECKFLAG_Wmissing-include-dirs - Success
+#49 8.885 -- Performing Test CFUNGE_CHECKFLAG_Wunused-parameter
+#49 8.945 -- Performing Test CFUNGE_CHECKFLAG_Wunused-parameter - Success
+#49 8.946 -- Performing Test CFUNGE_CHECKFLAG_Wunused-function
+#49 9.007 -- Performing Test CFUNGE_CHECKFLAG_Wunused-function - Success
+#49 9.008 -- Performing Test CFUNGE_CHECKFLAG_Wunused-label
+#49 9.067 -- Performing Test CFUNGE_CHECKFLAG_Wunused-label - Success
+#49 9.068 -- Performing Test CFUNGE_CHECKFLAG_Wunused-value
+#49 9.127 -- Performing Test CFUNGE_CHECKFLAG_Wunused-value - Success
+#49 9.128 -- Performing Test CFUNGE_CHECKFLAG_Wunused-variable
+#49 9.187 -- Performing Test CFUNGE_CHECKFLAG_Wunused-variable - Success
+#49 9.188 -- Performing Test CFUNGE_CHECKFLAG_Wimplicit
+#49 9.247 -- Performing Test CFUNGE_CHECKFLAG_Wimplicit - Success
+#49 9.248 -- Performing Test CFUNGE_CHECKFLAG_Wparentheses
+#49 9.307 -- Performing Test CFUNGE_CHECKFLAG_Wparentheses - Success
+#49 9.308 -- Performing Test CFUNGE_CHECKFLAG_Wpointer-arith
+#49 9.368 -- Performing Test CFUNGE_CHECKFLAG_Wpointer-arith - Success
+#49 9.369 -- Performing Test CFUNGE_CHECKFLAG_fvisibility_hidden
+#49 9.431 -- Performing Test CFUNGE_CHECKFLAG_fvisibility_hidden - Success
+#49 9.432 -- Performing Test CFUNGE_CHECKFLAG_fno-ident
+#49 9.492 -- Performing Test CFUNGE_CHECKFLAG_fno-ident - Success
+#49 9.493 -- Performing Test CFUNGE_CHECKLINKERFLAG_Wl_O1
+#49 9.552 -- Performing Test CFUNGE_CHECKLINKERFLAG_Wl_O1 - Success
+#49 9.552 -- Performing Test CFUNGE_CHECKLINKERFLAG_Wl_as-needed
+#49 9.612 -- Performing Test CFUNGE_CHECKLINKERFLAG_Wl_as-needed - Success
+#49 9.612 -- Performing Test CFUNGE_CHECKLINKERFLAG_Wl_warn-common
+#49 9.671 -- Performing Test CFUNGE_CHECKLINKERFLAG_Wl_warn-common - Success
+#49 9.680 -- Looking for wsyncup in /usr/lib/x86_64-linux-gnu/libcurses.so
+#49 9.744 -- Looking for wsyncup in /usr/lib/x86_64-linux-gnu/libcurses.so - found
+#49 9.745 -- Looking for cbreak in /usr/lib/x86_64-linux-gnu/libncurses.so
+#49 9.806 -- Looking for cbreak in /usr/lib/x86_64-linux-gnu/libncurses.so - found
+#49 9.806 -- Looking for nodelay in /usr/lib/x86_64-linux-gnu/libncurses.so
+#49 9.867 -- Looking for nodelay in /usr/lib/x86_64-linux-gnu/libncurses.so - found
+#49 9.897 -- Found Curses: /usr/lib/x86_64-linux-gnu/libncurses.so
+#49 9.897 -- Looking for term.h
+#49 9.898 CMake Warning (dev) at /usr/share/cmake-4.2/Modules/CheckIncludeFile.cmake:154 (message):
+#49 9.898   Policy CMP0075 is not set: Include file check macros honor
+#49 9.898   CMAKE_REQUIRED_LIBRARIES.  Run "cmake --help-policy CMP0075" for policy
+#49 9.898   details.  Use the cmake_policy command to set the policy and suppress this
+#49 9.898   warning.
+#49 9.898 
+#49 9.898   CMAKE_REQUIRED_LIBRARIES is set to:
+#49 9.898 
+#49 9.898     -lm
+#49 9.898 
+#49 9.898   For compatibility with CMake 3.11 and below this check is ignoring it.
+#49 9.898 Call Stack (most recent call first):
+#49 9.898   CMakeLists.txt:331 (CHECK_INCLUDE_FILE)
+#49 9.898 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 9.898 
+#49 9.959 -- Looking for term.h - found
+#49 9.959 -- Looking for clock_gettime
+#49 10.02 -- Looking for clock_gettime - found
+#49 10.02 CMake Warning (dev) at cmake/modules/CfungeCheckFunction.cmake:37 (set):
+#49 10.02   Cannot set "CFUNGE_HAVE_clock_gettime": current scope has no parent.
+#49 10.02 Call Stack (most recent call first):
+#49 10.02   CMakeLists.txt:350 (CFUNGE_CHECK_FUNCTION)
+#49 10.02 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 10.02 
+#49 10.02 -- Looking for clock_gettime in rt
+#49 10.08 -- Looking for clock_gettime in rt - found
+#49 10.08 CMake Warning (dev) at cmake/modules/CfungeCheckLibraryFunction.cmake:40 (set):
+#49 10.08   Cannot set "CFUNGE_HAVE_rt_clock_gettime": current scope has no parent.
+#49 10.08 Call Stack (most recent call first):
+#49 10.08   CMakeLists.txt:356 (CFUNGE_CHECK_LIBRARY_FUNCTION)
+#49 10.08 This warning is for project developers.  Use -Wno-dev to suppress it.
+#49 10.08 
+#49 10.08 -- Configuring done (5.4s)
+#49 10.09 -- Generating done (0.0s)
+#49 10.09 -- Build files have been written to: /usr/local/share/quine-relay/vendor/cfunge-0.9.0
+#49 10.10 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/cfunge-0.9.0'
+#49 10.13 [  1%] Building C object CMakeFiles/cfunge.dir/lib/genx/charProps.c.o
+#49 10.65 [  3%] Building C object CMakeFiles/cfunge.dir/lib/genx/genx.c.o
+#49 10.67 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c: In function 'storePrefix':
+#49 10.67 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:386:46: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+#49 10.67   386 |         w->status = listInsert(&w->prefixes, (void *) prefix, high);
+#49 10.67       |                                              ^
+#49 10.67 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c: In function 'declareAttribute':
+#49 10.67 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:978:24: warning: cast discards 'const' qualifier from pointer target type [-Wcast-qual]
+#49 10.67   978 |         w->arec.name = (utf8) name;
+#49 10.67       |                        ^
+#49 10.67 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c: In function 'genxAddCharacter':
+#49 10.67 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1718:33: warning: to be safe all intermediate pointers in cast from 'unsigned char **' to 'const unsigned char **' must be 'const' qualified [-Wcast-qual]
+#49 10.67  1718 |             addChar(w, c, next, (constUtf8 *) & lasts, (constUtf8 *) & breaker);
+#49 10.67       |                                 ^
+#49 10.67 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1718:56: warning: to be safe all intermediate pointers in cast from 'unsigned char **' to 'const unsigned char **' must be 'const' qualified [-Wcast-qual]
+#49 10.67  1718 |             addChar(w, c, next, (constUtf8 *) & lasts, (constUtf8 *) & breaker);
+#49 10.67       |                                                        ^
+#49 10.74 In file included from /usr/include/string.h:580,
+#49 10.74                  from /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/../../src/support.h:37,
+#49 10.74                  from /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/../../src/global.h:182,
+#49 10.74                  from /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:6:
+#49 10.74 In function 'strncpy',
+#49 10.74     inlined from 'growCollector' at /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:197:2,
+#49 10.74     inlined from 'collectString' at /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:219:20,
+#49 10.74     inlined from 'declareAttribute' at /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1027:20:
+#49 10.74 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:112:10: warning: '__builtin_strncpy' destination unchanged after copying no bytes [-Wstringop-truncation]
+#49 10.74   112 |   return __builtin___strncpy_chk (__dest, __src, __len,
+#49 10.74       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#49 10.74   113 |                                   __glibc_objsize (__dest));
+#49 10.74       |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c: In function 'addAttribute':
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:226:158: warning: '__builtin_strncpy' output truncated before terminating nul copying 5 bytes from a string of the same length [-Wstringop-truncation]
+#49 10.79   226 | #define collectPiece(w,c,d,size) {if (((c)->used+(size))>=(c)->space){if (((w)->status=growCollector(c,(c)->used+(size)))!=GENX_SUCCESS) return (w)->status;}strncpy((char *)(c)->buf+(c)->used,d,size);(c)->used+=size;}
+#49 10.79       |                                                                                                                                                              ^~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1421:41: note: in expansion of macro 'collectPiece'
+#49 10.79  1421 |                                         collectPiece(w, &a->value, "&#x9;", 5);
+#49 10.79       |                                         ^~~~~~~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:226:158: warning: '__builtin_strncpy' output truncated before terminating nul copying 5 bytes from a string of the same length [-Wstringop-truncation]
+#49 10.79   226 | #define collectPiece(w,c,d,size) {if (((c)->used+(size))>=(c)->space){if (((w)->status=growCollector(c,(c)->used+(size)))!=GENX_SUCCESS) return (w)->status;}strncpy((char *)(c)->buf+(c)->used,d,size);(c)->used+=size;}
+#49 10.79       |                                                                                                                                                              ^~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1424:41: note: in expansion of macro 'collectPiece'
+#49 10.79  1424 |                                         collectPiece(w, &a->value, "&#xA;", 5);
+#49 10.79       |                                         ^~~~~~~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:226:158: warning: '__builtin_strncpy' output truncated before terminating nul copying 5 bytes from a string of the same length [-Wstringop-truncation]
+#49 10.79   226 | #define collectPiece(w,c,d,size) {if (((c)->used+(size))>=(c)->space){if (((w)->status=growCollector(c,(c)->used+(size)))!=GENX_SUCCESS) return (w)->status;}strncpy((char *)(c)->buf+(c)->used,d,size);(c)->used+=size;}
+#49 10.79       |                                                                                                                                                              ^~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1427:41: note: in expansion of macro 'collectPiece'
+#49 10.79  1427 |                                         collectPiece(w, &a->value, "&#xD;", 5);
+#49 10.79       |                                         ^~~~~~~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:226:158: warning: '__builtin_strncpy' output truncated before terminating nul copying 6 bytes from a string of the same length [-Wstringop-truncation]
+#49 10.79   226 | #define collectPiece(w,c,d,size) {if (((c)->used+(size))>=(c)->space){if (((w)->status=growCollector(c,(c)->used+(size)))!=GENX_SUCCESS) return (w)->status;}strncpy((char *)(c)->buf+(c)->used,d,size);(c)->used+=size;}
+#49 10.79       |                                                                                                                                                              ^~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1430:41: note: in expansion of macro 'collectPiece'
+#49 10.79  1430 |                                         collectPiece(w, &a->value, "&quot;", 6);
+#49 10.79       |                                         ^~~~~~~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:226:158: warning: '__builtin_strncpy' output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+#49 10.79   226 | #define collectPiece(w,c,d,size) {if (((c)->used+(size))>=(c)->space){if (((w)->status=growCollector(c,(c)->used+(size)))!=GENX_SUCCESS) return (w)->status;}strncpy((char *)(c)->buf+(c)->used,d,size);(c)->used+=size;}
+#49 10.79       |                                                                                                                                                              ^~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1433:41: note: in expansion of macro 'collectPiece'
+#49 10.79  1433 |                                         collectPiece(w, &a->value, "&lt;", 4);
+#49 10.79       |                                         ^~~~~~~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:226:158: warning: '__builtin_strncpy' output truncated before terminating nul copying 5 bytes from a string of the same length [-Wstringop-truncation]
+#49 10.79   226 | #define collectPiece(w,c,d,size) {if (((c)->used+(size))>=(c)->space){if (((w)->status=growCollector(c,(c)->used+(size)))!=GENX_SUCCESS) return (w)->status;}strncpy((char *)(c)->buf+(c)->used,d,size);(c)->used+=size;}
+#49 10.79       |                                                                                                                                                              ^~~~~~~
+#49 10.79 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/lib/genx/genx.c:1436:41: note: in expansion of macro 'collectPiece'
+#49 10.79  1436 |                                         collectPiece(w, &a->value, "&amp;", 5);
+#49 10.79       |                                         ^~~~~~~~~~~~
+#49 11.19 [  5%] Building C object CMakeFiles/cfunge.dir/lib/libghthash/cfunge_mempool.c.o
+#49 11.25 [  7%] Building C object CMakeFiles/cfunge.dir/lib/libghthash/hash_functions.c.o
+#49 11.29 [  9%] Building C object CMakeFiles/cfunge.dir/lib/libghthash/hash_table.c.o
+#49 11.44 [ 11%] Building C object CMakeFiles/cfunge.dir/lib/stringbuffer/stringbuffer.c.o
+#49 11.49 [ 13%] Building C object CMakeFiles/cfunge.dir/src/diagnostic.c.o
+#49 11.53 [ 15%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/3DSP/3DSP.c.o
+#49 11.69 [ 16%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/BASE/BASE.c.o
+#49 11.77 [ 18%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/CPLI/CPLI.c.o
+#49 11.83 [ 20%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/DATE/DATE.c.o
+#49 11.99 [ 22%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/DIRF/DIRF.c.o
+#49 12.04 [ 24%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/FILE/FILE.c.o
+#49 12.07 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/fingerprints/FILE/FILE.c: In function 'finger_FILE_fgets':
+#49 12.07 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/fingerprints/FILE/FILE.c:167:44: warning: this statement may fall through [-Wimplicit-fallthrough=]
+#49 12.07   167 |                                         if (ch != '\n') {
+#49 12.07       |                                            ^
+#49 12.07 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/fingerprints/FILE/FILE.c:172:33: note: here
+#49 12.07   172 |                                 case '\n':
+#49 12.07       |                                 ^~~~
+#49 12.16 [ 26%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/FING/FING.c.o
+#49 12.21 [ 28%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/FIXP/FIXP.c.o
+#49 12.29 [ 30%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/FPDP/FPDP.c.o
+#49 12.38 [ 32%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/FPSP/FPSP.c.o
+#49 12.46 [ 33%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/FRTH/FRTH.c.o
+#49 12.51 [ 35%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/HRTI/HRTI.c.o
+#49 12.56 [ 37%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/INDV/INDV.c.o
+#49 12.61 [ 39%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/JSTR/JSTR.c.o
+#49 12.66 [ 41%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/MODU/MODU.c.o
+#49 12.70 [ 43%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/NCRS/NCRS.c.o
+#49 12.78 [ 45%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/NULL/NULL.c.o
+#49 12.82 [ 47%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/ORTH/ORTH.c.o
+#49 12.87 [ 49%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/PERL/PERL.c.o
+#49 12.94 [ 50%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/REFC/REFC.c.o
+#49 12.98 [ 52%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/REXP/REXP.c.o
+#49 13.03 [ 54%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/ROMA/ROMA.c.o
+#49 13.07 [ 56%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/SCKE/SCKE.c.o
+#49 13.12 [ 58%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/SOCK/SOCK.c.o
+#49 13.25 [ 60%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/STRN/STRN.c.o
+#49 13.34 [ 62%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/SUBR/SUBR.c.o
+#49 13.39 [ 64%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/TERM/TERM.c.o
+#49 13.46 [ 66%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/TIME/TIME.c.o
+#49 13.52 [ 67%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/TOYS/TOYS.c.o
+#49 13.66 [ 69%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/TURT/TURT.c.o
+#49 13.86 [ 71%] Building C object CMakeFiles/cfunge.dir/src/fingerprints/manager.c.o
+#49 13.88 In file included from /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/fingerprints/manager.c:22:
+#49 13.88 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/fingerprints/manager.c: In function 'manager_free':
+#49 13.88 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/fingerprints/../global.h:113:43: warning: 'nonnull' argument 'ip' compared to NULL [-Wnonnull-compare]
+#49 13.88   113 | #define FUNGE_UNLIKELY(expr) FUNGE_EXPECT(!!(expr), 0)
+#49 13.88       |                                           ^
+#49 13.88 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/fingerprints/../global.h:103:57: note: in definition of macro 'FUNGE_EXPECT'
+#49 13.88   103 | #  define FUNGE_EXPECT(expr, outcome) __builtin_expect((expr),(outcome))
+#49 13.88       |                                                         ^~~~
+#49 13.88 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/fingerprints/manager.c:126:13: note: in expansion of macro 'FUNGE_UNLIKELY'
+#49 13.88   126 |         if (FUNGE_UNLIKELY(!ip))
+#49 13.88       |             ^~~~~~~~~~~~~~
+#49 13.93 [ 73%] Building C object CMakeFiles/cfunge.dir/src/funge-space/funge-space.c.o
+#49 14.18 [ 75%] Building C object CMakeFiles/cfunge.dir/src/input.c.o
+#49 14.24 [ 77%] Building C object CMakeFiles/cfunge.dir/src/instructions/execute.c.o
+#49 14.28 [ 79%] Building C object CMakeFiles/cfunge.dir/src/instructions/io.c.o
+#49 14.32 [ 81%] Building C object CMakeFiles/cfunge.dir/src/instructions/iterate.c.o
+#49 14.38 [ 83%] Building C object CMakeFiles/cfunge.dir/src/instructions/safe_env.c.o
+#49 14.42 [ 84%] Building C object CMakeFiles/cfunge.dir/src/instructions/sysinfo.c.o
+#49 14.49 [ 86%] Building C object CMakeFiles/cfunge.dir/src/interpreter.c.o
+#49 14.61 [ 88%] Building C object CMakeFiles/cfunge.dir/src/ip.c.o
+#49 14.67 [ 90%] Building C object CMakeFiles/cfunge.dir/src/main.c.o
+#49 14.69 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/main.c: In function 'main':
+#49 14.69 /usr/local/share/quine-relay/vendor/cfunge-0.9.0/src/main.c:294:29: warning: to be safe all intermediate pointers in cast from 'char **' to 'const char **' must be 'const' qualified [-Wcast-qual]
+#49 14.69   294 |                 fungeargv = (const char**)&argv[optind];
+#49 14.69       |                             ^
+#49 14.72 [ 92%] Building C object CMakeFiles/cfunge.dir/src/settings.c.o
+#49 14.74 [ 94%] Building C object CMakeFiles/cfunge.dir/src/stack.c.o
+#49 14.89 [ 96%] Building C object CMakeFiles/cfunge.dir/src/support.c.o
+#49 14.93 [ 98%] Building C object CMakeFiles/cfunge.dir/src/vector.c.o
+#49 14.97 [100%] Linking C executable cfunge
+#49 15.01 [100%] Built target cfunge
+#49 15.02 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/cfunge-0.9.0'
+#49 15.02 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/cfunge-0.9.0'
+#49 15.07 [100%] Built target cfunge
+#49 15.08 Install the project...
+#49 15.09 -- Install configuration: "Release"
+#49 15.09 -- Installing: /usr/local/share/quine-relay/vendor/local/bin/cfunge
+#49 15.09 -- Installing: /usr/local/share/quine-relay/vendor/local/share/man/man1/cfunge.1
+#49 15.09 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/cfunge-0.9.0'
+#49 15.09 tar xzf Acme-Chef-1.03.tar.gz
+#49 15.09 (cd Acme-Chef-1.03 && perl Makefile.PL INSTALL_BASE=/usr/local/share/quine-relay/vendor/local && make && make install)
+#49 15.18 Checking if your kit is complete...
+#49 15.18 Looks good
+#49 15.22 Generating a Unix-style Makefile
+#49 15.22 Writing Makefile for Acme::Chef
+#49 15.22 Writing MYMETA.yml and MYMETA.json
+#49 15.22 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/Acme-Chef-1.03'
+#49 15.38 cp lib/Acme/Chef.pm blib/lib/Acme/Chef.pm
+#49 15.38 cp lib/Acme/Chef/Recipe.pm blib/lib/Acme/Chef/Recipe.pm
+#49 15.38 cp lib/Acme/Chef/Ingredient.pm blib/lib/Acme/Chef/Ingredient.pm
+#49 15.38 cp lib/Acme/Chef/Container.pm blib/lib/Acme/Chef/Container.pm
+#49 15.39 cp script/chef blib/script/chef
+#49 15.39 "/usr/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/chef
+#49 15.45 cp script/compilechef blib/script/compilechef
+#49 15.45 "/usr/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/compilechef
+#49 15.56 Manifying 2 pod documents
+#49 15.62 Manifying 4 pod documents
+#49 15.62 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/Acme-Chef-1.03'
+#49 15.62 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/Acme-Chef-1.03'
+#49 15.66 Manifying 2 pod documents
+#49 15.70 Manifying 4 pod documents
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/lib/perl5/Acme/Chef.pm
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/lib/perl5/Acme/Chef/Ingredient.pm
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/lib/perl5/Acme/Chef/Recipe.pm
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/lib/perl5/Acme/Chef/Container.pm
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/man/man1/chef.1p
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/man/man1/compilechef.1p
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/man/man3/Acme::Chef.3pm
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/man/man3/Acme::Chef::Container.3pm
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/man/man3/Acme::Chef::Ingredient.3pm
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/man/man3/Acme::Chef::Recipe.3pm
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/bin/chef
+#49 15.73 Installing /usr/local/share/quine-relay/vendor/local/bin/compilechef
+#49 15.74 Appending installation info to /usr/local/share/quine-relay/vendor/local/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+#49 15.76 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/Acme-Chef-1.03'
+#49 15.76 cc lazyk.c -o /usr/local/share/quine-relay/vendor/local/bin/lazyk
+#49 15.81 tar xzf spl-1.2.1.tar.gz
+#49 15.81 (cd spl-1.2.1 && ln -s ../local spl && make spl2c CCFLAGS="-O0 -g -Wall" && make install)
+#49 15.81 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/spl-1.2.1'
+#49 15.81 bison --verbose -d grammar.y
+#49 15.96 gcc -O0 -g -Wall -c grammar.tab.c
+#49 16.04 gcc -O0 -g -Wall -c makescanner.c
+#49 16.08 gcc makescanner.o -O0 -g -Wall -o makescanner
+#49 16.09 ./makescanner include > scanner.l
+#49 16.09 flex -Cem -t scanner.l > scanner.c
+#49 16.11 scanner.l:601: warning, rule cannot be matched
+#49 16.12 gcc -O0 -g -Wall -c scanner.c
+#49 16.15 <stdout>:5884:16: warning: 'input' defined but not used [-Wunused-function]
+#49 16.15 <stdout>:5837:17: warning: 'yyunput' defined but not used [-Wunused-function]
+#49 16.23 gcc -O0 -g -Wall -c strutils.c
+#49 16.26 gcc grammar.tab.o scanner.o strutils.o -O0 -g -Wall -lfl -o spl2c
+#49 16.27 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/spl-1.2.1'
+#49 16.27 make[1]: Entering directory '/usr/local/share/quine-relay/vendor/spl-1.2.1'
+#49 16.27 gcc -O2 -Wall -c libspl.c
+#49 16.29 libspl.c: In function 'int_input':
+#49 16.29 libspl.c:323:3: warning: ignoring return value of 'fgets' declared with attribute 'warn_unused_result' [-Wunused-result]
+#49 16.29   323 |   fgets(buf, BUF_SIZE, stdin);
+#49 16.29       |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+#49 16.36 ar rc libspl.a libspl.o strutils.o
+#49 16.37 ranlib libspl.a
+#49 16.39 mkdir -p spl/bin spl/include spl/lib
+#49 16.39 cp -pf spl2c spl/bin
+#49 16.39 cp -pf spl.h spl/include
+#49 16.39 cp -pf libspl.a spl/lib
+#49 16.39 make[1]: Leaving directory '/usr/local/share/quine-relay/vendor/spl-1.2.1'
+#49 16.39 unzip -d /usr/local/share/quine-relay/vendor/local/bin -q Velato_0_1.zip
+#49 16.39 make: Leaving directory '/usr/local/share/quine-relay/vendor'
+#49 DONE 16.5s
+
+#50 exporting to image
+#50 exporting layers
+#50 exporting layers 20.0s done
+#50 writing image sha256:26b0f96873718dfa6ac797b3fc02dc2cf2566aabca5e1ee3e951d8d00c1149a9 done
+#50 naming to docker.io/library/qr151 done
+#50 DONE 20.0s
+
+ [33m2 warnings found (use docker --debug to expand):
+[0m - LegacyKeyValueFormat: "ENV key=value" should be used instead of legacy "ENV key value" format (line 2)
+ - JSONArgsRecommended: JSON arguments recommended for CMD to prevent unintended behavior related to OS signals (line 46)

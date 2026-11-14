@@ -1,0 +1,2 @@
+PASSED: all 151 steps ran for real in Docker; QR2.rb is identical to QR.rb. 
+Finished Fri 11/13/2026 17:00:24.15 
