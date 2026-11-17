@@ -1863,7 +1863,7 @@ end
 class Yash < CodeGen
   Name = "yash"
   File = "QR.yash"
-  Cmd = "yash QR.yash > OUTFILE"
+  Cmd = "!yash QR.yash > OUTFILE"
   Apt = "yash"
   Code = %q(%(printf %s '#{(PREV).gsub(?',%('"'"'))}'))
 

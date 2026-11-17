@@ -7,7 +7,7 @@ A record needs a public repo and a full run that anyone can repeat. A number alo
 
 | Relay | Tier 1 (distinct languages) | Tier 2 (relay steps) | Verified | Date |
 |---|---|---|---|---|
-| [rasteia/quine-relay](https://github.com/rasteia/quine-relay) (this repo) | **143** | **151** | Docker, Ubuntu 26.04, zero stand-ins ([proof](proof/)) | 2026-11-13 |
+| [exacortex/quine-relay-151](https://github.com/exacortex/quine-relay-151) (this repo) | **143** | **151** | Docker, Ubuntu 26.04, zero stand-ins ([proof](proof/)) | 2026-11-13 |
 | [mame/quine-relay](https://github.com/mame/quine-relay) | 123 | 128 | mame's CI, Ubuntu 26.04 | 2026 |
 
 To add a relay, open a pull request that edits this table and links to your proof (see "How to claim a record" below).

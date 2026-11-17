@@ -150,7 +150,7 @@ QR.elv: QR.yash
 	@echo "##  15: yash -> Elvish  ##"
 	@echo "##########################"
 	@echo
-	yash QR.yash > QR.elv
+	ulimit -s unlimited && yash QR.yash > QR.elv
 
 QR.vhdl: QR.elv
 	@echo

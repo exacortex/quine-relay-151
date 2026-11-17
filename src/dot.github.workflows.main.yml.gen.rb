@@ -20,8 +20,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
       - name: docker build
         run: |
           sudo docker build -t quine-relay .
@@ -45,7 +47,7 @@ jobs:
           git commit --allow-empty -m "spoiler: $(git show -s --format=%s "$GITHUB_SHA")"
           git push --quiet origin spoiler
           echo The intermediate sources are available: https://github.com/${GITHUB_REPOSITORY}/tree/spoiler
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 END

@@ -37,9 +37,9 @@ RUN chronic apt-get -qq install -y tcsh valac vim wabt && chronic apt-get clean
 RUN chronic apt-get -qq install -y xonsh xsltproc yabasic yash && chronic apt-get clean
 RUN chronic apt-get -qq install -y yorick zoem zsh && chronic apt-get clean
 RUN chronic apt-get -qq install -y python3-pip golang-go cargo && chronic apt-get clean
-RUN pip install --break-system-packages --ignore-installed coconut
-RUN GOBIN=/usr/local/bin go install github.com/d5/tengo/v2/cmd/tengo@latest && GOBIN=/usr/local/bin go install github.com/mattn/anko@latest
-RUN cargo install --root /usr/local rhai --features bin-features --bin rhai-run && cargo install --root /usr/local koto_cli
+RUN pip install --break-system-packages --ignore-installed coconut==3.2.0
+RUN GOBIN=/usr/local/bin go install github.com/d5/tengo/v2/cmd/tengo@v2.17.0 && GOBIN=/usr/local/bin go install github.com/mattn/anko@v0.1.15
+RUN cargo install --root /usr/local rhai@1.27.0 --features bin-features --bin rhai-run && cargo install --root /usr/local koto_cli@0.16.1
 ADD . /usr/local/share/quine-relay
 WORKDIR /usr/local/share/quine-relay
 RUN make -C vendor
